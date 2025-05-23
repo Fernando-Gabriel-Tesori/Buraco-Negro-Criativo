@@ -2,21 +2,6 @@
 
 Um projeto web inovador que exibe uma animação interativa e visualmente impressionante de um “buraco negro” utilizando Web Components, canvas 2D e técnicas avançadas de animação com easing.
 
----
-
-## Sumário
-
-- [Descrição](#descrição)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Usar](#como-usar)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Como Funciona](#como-funciona)
-- [Como Ativar e Rodar o Projeto](#como-ativar-e-rodar-o-projeto)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
-
----
-
 ## Descrição
 
 Este projeto cria um componente customizado `<a-hole>` que representa um buraco negro animado, combinando vários elementos gráficos:
