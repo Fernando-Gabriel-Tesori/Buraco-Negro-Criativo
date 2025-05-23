@@ -39,45 +39,54 @@ A animação é gerada dinamicamente usando a API Canvas 2D, combinada com easin
 - Biblioteca externa para easing: [easing-utils](https://esm.sh/easing-utils)
 - Servidor HTTP local para evitar problemas CORS
 
----
+bash
+Copiar
+Editar
+npm install -g http-server
+Passo 4 — Rodar o servidor local
+Na pasta raiz do projeto, execute:
 
-## Como Usar
+bash
+Copiar
+Editar
+http-server
+Por padrão, o servidor rodará no endereço:
 
-### Pré-requisitos
+arduino
+Copiar
+Editar
+http://localhost:8080
+Caso a porta esteja ocupada, o http-server indicará uma porta alternativa.
 
-- Ter [Node.js](https://nodejs.org/) instalado (para rodar servidor local)
-- Navegador moderno com suporte a ES Modules e Canvas 2D (Chrome, Firefox, Edge atualizados)
+Passo 5 — Acessar o projeto no navegador
+Abra o navegador e acesse:
 
-### Passo a passo
+arduino
+Copiar
+Editar
+http://localhost:8080
+A animação do buraco negro começará automaticamente.
 
-1. Clone ou baixe o projeto na sua máquina:
+Passo 6 — Explorar e testar
+Verifique o console do navegador (F12 > Console) para garantir que não há erros.
 
-    ```bash
-    git clone https://github.com/seuusuario/black-hole-criativo.git
-    cd black-hole-criativo
-    ```
+Ajuste o tamanho da janela para testar responsividade do componente <a-hole>.
 
-2. Instale o http-server globalmente (caso ainda não tenha):
+Contribuições
+Contribuições são bem-vindas! Para colaborar:
 
-    ```bash
-    npm install -g http-server
-    ```
+Abra uma issue para reportar bugs ou sugerir melhorias.
 
-3. Inicie o servidor local na pasta do projeto:
+Faça um fork e envie pull requests com novas funcionalidades ou correções.
 
-    ```bash
-    http-server
-    ```
+Sugestões para suporte a navegadores ou novas animações serão valorizadas.
 
-4. Acesse o endereço no navegador (exemplo padrão):
+Licença
+Este projeto é licenciado sob a MIT License.
 
-    ```
-    http://localhost:8080
-    ```
+Visualização do Projeto
+Veja abaixo uma captura de tela da animação rodando:
 
-5. Veja a animação do buraco negro preenchendo a tela.
+![funcionando](assets/cap.png)
 
----
-
-## Estrutura do Projeto
-
+Desenvolvido por Fernando
